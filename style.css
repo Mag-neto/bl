@@ -96,3 +96,101 @@ input {
 	 padding: 0px;
 	 }
 
+	 
+@media (max-width: 500px) {
+
+		
+header {	
+	height: auto;
+	background-color: rgba(52, 73, 94,1.0);
+	color: white;
+	}
+
+
+#nav{
+	padding: 0px 0px 0px 0px;
+		}
+#nav li {
+	display: inline-block;
+	padding: 10px;
+	}
+#sharma_img {
+	 margin: 20px;
+	 height: 200px;
+	 width: 200px;
+	 border: 5px solid white;
+	 border-radius: 200px;
+	 position: relative;
+	 left: 10%;
+	 }
+p.about_para{ 	
+	text-align: left;
+	padding: 10px 30px 10px 30px;
+	}
+a {
+	text-decoration: none;
+	color: white;
+	}
+ol {
+	margin: 20px;
+	}
+ol li {
+	padding: 10px;
+	}
+h2 {
+	padding: 10px 0px 0px 10px;
+	}
+#honour {
+	
+	}
+#abroad_para {
+	 text-align: left;
+	 padding-left: 40px;
+	 }
+input {
+	 border : black;
+	 padding : 2px;
+	 margin  : 10px;
+	}
+.name_list,
+.mail_list,
+.subject_list {
+	 height: 30px;
+	 width: 40vw;
+	 }
+.submit_list {
+
+	}
+.message {
+	 margin: 10px;
+	 width: 80vw;
+	 height: 100px;
+	 }
+#contact {
+	 display: block;
+	 }
+#contact_mail {
+	 display: block;
+	 
+	 }
+#contact_address {
+	display:table;
+	 float: left;
+	 padding: 10px 10px 10px 10px;
+	 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
