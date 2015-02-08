@@ -1,7 +1,12 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	}
+h1,h2,h3,h4,h5,header {
+	font-family: 'Roboto Slab', serif;
+	color: white;
 	}
 * {
 	margin: 0px;
@@ -11,7 +16,7 @@ body {
 header {	
 	height: 50px;
 	background-color: black;
-	color: white;
+	
 	}
 
 #nav{
@@ -37,7 +42,8 @@ header {
 	 }
 p.about_para{ 	
 	text-align: left;
-	padding: 10px 30px 30px 30px;
+	padding: 30px 30px 30px 30px;
+	line-height: 150%;
 	}
 a {
 	text-decoration: none;
@@ -69,6 +75,7 @@ h2 {
 #performance_abroad {
 	 background-color:#E9E0D6;
 	 height: 300px;
+	 padding: 40px;
 	}
 input {
 	 border : black;
@@ -116,8 +123,17 @@ input {
 	 margin: 10px 10px 10px 0px;
 	 padding: 0px;
 	 }
-
-
+div.footer {
+	 
+	 background-color: black; 
+	color: white;
+	 }
+p#footer_para {
+	 position: relative;
+	  padding-left: 40vw;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	}
 	 
 @media (max-width: 500px) {
 
@@ -147,7 +163,7 @@ input {
 	 }
 p.about_para{ 	
 	text-align: left;
-	padding: 10px 30px 10px 30px;
+	padding: 30px 30px 30px 30px;
 	}
 a {
 	text-decoration: none;
@@ -214,8 +230,12 @@ input {
 	 }
 #footer {
 	 height: 30px;
-	 background-color: black;
-	 color: white;
 	 }
+p#footer_para {
+	 position: relative;
+	  padding-left: 2px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	}
 }
 
